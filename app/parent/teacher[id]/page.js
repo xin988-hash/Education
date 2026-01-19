@@ -1,5 +1,6 @@
+"use client";
 import { sampleTeachers } from '../../../../lib/data';
-import { useRouter } from 'next/router';
+import { useRouter, useParams } from 'next/navigation';
 
 export default function TeacherDetail() {
   const router = useRouter();
