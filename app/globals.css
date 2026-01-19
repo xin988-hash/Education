@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 简单自定义 */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.small-text {
+  font-size: 0.85rem;
+  color: #6b7280;
+}
+.card {
+  @apply bg-white rounded-lg shadow p-4;
+}
