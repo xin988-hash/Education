@@ -1,3 +1,4 @@
+"use client";
 import { useState, useEffect } from 'react';
 import TeacherCard from '../../components/TeacherCard';
 import { sampleTeachers } from '../../lib/data';
