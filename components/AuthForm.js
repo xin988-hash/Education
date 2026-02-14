@@ -1,3 +1,4 @@
+"use client";
 import { useState } from 'react';
 import CountryCodeSelect from './CountryCodeSelect';
 import { setCurrentUser } from '../lib/data';
