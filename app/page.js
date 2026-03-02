@@ -1,4 +1,3 @@
-import dynamic from 'next/dynamic'
 import AuthForm from '../components/AuthForm'
 
 export default function Home() {
